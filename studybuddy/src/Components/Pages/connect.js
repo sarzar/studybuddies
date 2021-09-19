@@ -9,12 +9,12 @@ function connect() {
         <div className="container-connect">
             <h1 className="titles">Start Studying!</h1>
             <div className="form">
-                <input label = "Name" placeholder = "User Name" type="text"/>
+                
                 <div className="form-subject">
-                    <label for="subject">Subject of study:</label>
+        
                     <select class="form-control" id="subject" placeholder="Pick a subject...">
                         <option value="math">Math</option>
-                        <option value="chemestry">Chemestry</option>
+                        <option value="chemestry">Chemistry</option>
                         <option value="biology">Biology</option>
                         <option value="physics">Physics</option>
                         <option value="english">English</option>
@@ -36,7 +36,7 @@ function connect() {
                     </select>
                 </div>
                 <div className="form-year">
-                    <label for="year">Year of study:</label>
+            
                     <select class="form-control" id="year" placeholder="Pick a year...">
                         <option value="g1">Grade: 1</option>
                         <option value="g2">Grade: 2</option>
@@ -58,7 +58,9 @@ function connect() {
                         <option value="other">other</option>
                     </select>
                 </div>
+                <a href = "http://localhost:3030/">  
                 <Button className = "joinbutton" size="massive" color='orange'> Start</Button>
+                </a>
             </div>
         </div>
     );

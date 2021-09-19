@@ -17,13 +17,13 @@
 
 .form-subject{
     position: absolute;
-    left:230px;
-    top: 500px;
+    left:280px;
+    top: 400px;
 }
 .form-year{
     position: absolute;
-    left:830px;
-    top: 500px;
+    left:920px;
+    top: 400px;
     
 }
 .form select{
@@ -32,6 +32,6 @@
 }
 .form button{
     position: absolute;
-    left: 665px;
-    top: 600px;
+    left: 650px;
+    top: 500px;
 }

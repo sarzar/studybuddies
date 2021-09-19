@@ -19,7 +19,7 @@ const peerServer = ExpressPeerServer(server, {
 
 app.use("/peerjs", peerServer);
 app.use(express.static("public"));
-app.use(express.static("studybuddy/build"))
+
 
 app.get("/", (req, res) => {
   res.redirect(`/${uuidv4()}`);
@@ -33,7 +33,7 @@ io.on("connection", (socket) => {
   socket.on("join-room", (roomId, userId, userName) => {
     //
     socket.join(roomId);
-    socket.to(roomId).broadcast.emit("user-connected", userId);
+    io.in(roomId).emit("user-connected", userId);
     socket.on("message", (message) => {
       io.to(roomId).emit("createMessage", message, userName);
     });
