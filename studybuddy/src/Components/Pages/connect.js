@@ -9,7 +9,7 @@ function connect() {
         <div className="container-connect">
             <h1 className="titles">Start Studying!</h1>
             <div className="form">
-                <input label = "Name" type="text"/>
+                <input label = "Name" placeholder = "User Name" type="text"/>
                 <div className="form-subject">
                     <label for="subject">Subject of study:</label>
                     <select class="form-control" id="subject" placeholder="Pick a subject...">
