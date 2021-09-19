@@ -14,14 +14,16 @@ function faq () {
             <div class="contentBx">
                 <div class="label">What is the main purpose of Emegle?</div>
                     <div class='content'>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p>During these difficult times living under the global pandemic, students find it very difficult to socialize with their fellow peers. That is why the primary
+                            purpose of Emegle is to help build a platform for students to connect with each other. As evident from the name, Emegle comes from the intersection between Education and Omegle, hence an online 'study buddy' platform. </p>
                     </div>
             </div>
 
             <div class="contentBx">
                 <div class="label">Are the subjects seperated into different levels?</div>
                     <div class='content'>
-                        <p> Sarim Zia Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p> Yes, there is specific chat and video options for a wide range of subjects and levels. When choosing to connect to another 'study buddy', there is an option 
+                            to choose what subject you are looking for and what grade/year of studies you are currently in.</p>
                     </div>
             </div>
 
@@ -29,7 +31,8 @@ function faq () {
             <div class="contentBx">
                 <div class="label">Are video calling and chatting both included?</div>
                     <div class='content'>
-                        <p> jets sucks Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p> Yes, abdolutely! Both video calling and chatting are included within the 'Connect' page. We believe that having face-to-face interation is very important 
+                            thus made video calling a prime feature of the website.</p>
                     </div>
             </div>
 
@@ -37,7 +40,7 @@ function faq () {
             <div class="contentBx">
                 <div class="label">Is Emegle open for students at all level?</div>
                     <div class='content'>
-                        <p> Zia Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <p> Yes, Emegle is opened for all students in any grade/level. We have users starting anywhere from grades 1-6, highschool and all univeristy years!</p>
                     </div>
             </div>
 
