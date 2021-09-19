@@ -1,8 +1,12 @@
+var cors = require("cors")
 const express = require("express");
 const app = express();
 const server = require("http").Server(app);
 const { v4: uuidv4 } = require("uuid");
 app.set("view engine", "ejs");
+app.use(cors())
+
+
 const io = require("socket.io")(server, {
   cors: {
     origin: '*'
@@ -15,6 +19,7 @@ const peerServer = ExpressPeerServer(server, {
 
 app.use("/peerjs", peerServer);
 app.use(express.static("public"));
+app.use(express.static("studybuddy/build"))
 
 app.get("/", (req, res) => {
   res.redirect(`/${uuidv4()}`);
@@ -26,6 +31,7 @@ app.get("/:room", (req, res) => {
 
 io.on("connection", (socket) => {
   socket.on("join-room", (roomId, userId, userName) => {
+    //
     socket.join(roomId);
     socket.to(roomId).broadcast.emit("user-connected", userId);
     socket.on("message", (message) => {
