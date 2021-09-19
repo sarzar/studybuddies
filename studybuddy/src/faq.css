@@ -1,0 +1,76 @@
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+
+.body 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40rem;  
+
+}
+
+.title 
+{
+  color: #f58025;
+  text-align: center;
+  text-shadow: 5px ;
+  padding: 2rem;
+  margin-top: 50px;
+  font-size: 50px;
+
+
+
+
+}
+
+
+
+.questionpage
+{
+
+ text-align: center;
+ width:1000px;
+ margin:0 auto;
+
+  max-width: 80rem;
+
+  
+}
+
+.questionpage .contentBx 
+{
+  position: relative;
+  margin: 10px 20px;
+}
+
+.questionpage .contentBx .label 
+{
+  position: relative;
+  padding: 10px;
+  background: #358BF5;
+  color: white;
+}
+
+.contentBx{
+  font-size: 30px; 
+
+}
+.content
+{
+  background-color: lightblue;
+  font-size: 20px; 
+
+}
+
+
+

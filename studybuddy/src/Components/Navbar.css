@@ -1,0 +1,15 @@
+
+.navbar img{
+    position: absolute;
+    top: -190px;
+    left: -130px;
+}
+
+.navbar .navbar-items
+{   display: flex;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-left: 42rem;
+    padding-right: 8rem;
+    justify-content: space-between;
+}
